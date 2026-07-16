@@ -27,5 +27,3 @@ Reprovado
 """
 
 note = 10
-
-if note 
