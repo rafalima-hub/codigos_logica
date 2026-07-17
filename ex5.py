@@ -26,4 +26,13 @@ Reprovado
 
 """
 
-note = 10
+note = 4
+
+if note >= 9:
+    print("Excelente")
+elif note >= 7:
+    print("Aprovado")
+elif note >= 5:
+    print("Recuperação")
+else:
+    print("Reprovado")
