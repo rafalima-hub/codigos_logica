@@ -14,12 +14,12 @@ Adicione algumas frutas e exiba a última, independentemente da quantidade.
 
  """
 
-fruits = ["banana", "stramberry", "grape", "mango", "cherry"]
+fruits = [ "banana", "stramberry", "grape", "mango", "cherry"]
 
 print(fruits)
 print(fruits[0])
 print(fruits[4])
 
-fruits.append("apple")
+fruits.extend(["apple", "blueberry"])
 
 print(fruits[-1])

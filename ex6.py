@@ -1,5 +1,5 @@
 # Questão 6 – Produto em estoque
-
+print()
 """Crie as variáveis: 
 
 estoque = 15 
@@ -18,7 +18,10 @@ Caso contrário:
 
 Estoque insuficiente. """
 
-estoque = 15
+estoque = 9
 quantidade_solicitada = 10
 
-if 
+if estoque >= quantidade_solicitada:
+    print("Pedido aprovado.")
+else:
+    print("Estoque insuficiente.")
