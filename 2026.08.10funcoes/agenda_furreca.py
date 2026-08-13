@@ -64,7 +64,7 @@ def list_contact():
     print()
 
     # Loop para iterar os registros usando o método 'dict.items()'
-    for key, value in database.items()
+    for key, value in database.items():
         # Formata saídas
         print("ID", key)
         print(" - Nome:", value['name'])
