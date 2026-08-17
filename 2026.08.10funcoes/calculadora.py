@@ -1,3 +1,10 @@
+###############################################
+# 2026.08.10.Funcoes/calculadora.py           #
+# CALCULADORA.py                              #
+# Versão 2026.08.14                           #
+# By Rafa Lima - https://github.xonm/rafalima #
+###############################################
+
 import os
 import subprocess
 
